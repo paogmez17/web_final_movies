@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.nav__link {
+  font-size: 14px;
+  color: #6b5b4d;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.nav__link:hover {
+  color: #8b5e3c;
+}
+
+.nav__link_active {
+  color: #8b5e3c;
+  border-bottom-color: #8b5e3c;
+}

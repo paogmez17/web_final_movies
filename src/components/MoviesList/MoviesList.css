@@ -1,0 +1,43 @@
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+/* Card */
+.movies__item {
+  background-color: #f8f0e6;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.movies__item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Poster */
+.movies__poster {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+/* Título y año */
+.movies__title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 6px 0 2px;
+  color: #4a3b2f;
+}
+
+.movies__year {
+  font-size: 13px;
+  color: #7c6a5b;
+  margin: 0;
+}

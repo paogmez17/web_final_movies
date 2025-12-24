@@ -1,0 +1,12 @@
+.header {
+  padding: 24px 16px 8px;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #4a3b2f;
+  margin: 0;
+}

@@ -1,0 +1,48 @@
+Sobre la autora / el autor
+Aplicación desarrollada por [Tu nombre] como proyecto final del programa de desarrollo web de TripleTen (Etapa de Front-End + API third‑party).
+
+
+Movie Search App
+Aplicación web de búsqueda de películas desarrollada con React y Vite como parte del proyecto final de TripleTen.
+La aplicación consume la API pública de OMDb (The Open Movie Database) para mostrar información básica de películas a partir de una búsqueda por título.
+
+Funcionalidades principales
+Búsqueda de películas por título mediante un formulario.
+Integración con una API third‑party (OMDb) usando fetch.
+Preloader animado mientras se realiza la petición.
+Manejo de estados:
+Resultados encontrados.
+Mensaje “No se ha encontrado nada” cuando la API no devuelve resultados.
+Mensaje de error cuando ocurre un problema con la solicitud.
+Visualización de resultados en tarjetas de películas:
+Póster.
+Título.
+Año.
+Paginación sencilla:
+Se muestran 3 películas inicialmente.
+Botón “Mostrar más” que agrega 3 resultados adicionales cada vez.
+El botón desaparece cuando ya no hay más películas que mostrar.
+Persistencia:
+Los resultados de la última búsqueda se guardan en localStorage.
+Al recargar la página, se recuperan las películas guardadas.
+
+Rutas con React Router:
+/ – página principal con buscador y resultados.
+/about – página “Sobre el proyecto”.
+Diseño responsive:
+Layout con flex y grid.
+Sin scroll horizontal desde 320px en adelante.
+Formulario y tarjetas adaptados a vista móvil.
+Estilos organizados por componente y usando BEM.
+
+
+--Tecnologías utilizadas--
+React (funcional components + hooks)
+Vite (bundler y dev server)
+React Router DOM (rutas: / y /about)
+JavaScript (ES6+)
+HTML semántico
+CSS:
+Flexbox
+CSS Grid
+BEM para nombres de clases
